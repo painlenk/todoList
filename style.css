@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+    background-image: url('./assets/mesaEstudo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+
+width: 70%;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+
+}
+
+
+.header{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header span{
+    font-size: 36px;
+    margin-right: 5px;
+    color: rgb(255, 210, 29);
+    
+}
+
+.inpts {
+    
+    
+    display: flex;
+    margin-top: 20px;
+   
+    
+}
+
+.inpt-text{
+    border-radius: 5px 0 0 5px;
+    border: 1px solid transparent;
+    height: 30px;
+    font-size: 1.1em;
+    text-align: center;
+  
+    
+    
+}
+.inpt-text:focus, input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    }
+.btn-inserir {
+   
+    
+    height: 30px;
+    border-radius: 0 5px 5px 0;
+    border: 1px solid transparent;
+    background-color: rgba(92, 240, 208, 0.76);
+    font-size: .9em;
+    font-weight: 500;
+    cursor: pointer;
+    color: rgb(27, 27, 27);
+
+}
+.btn-inserir:hover {
+    background-color: rgba(92, 240, 208, 1);
+   
+    
+}
+
+.content{
+    display: flex;
+    width:70%;
+    background-image: url('./assets/D_NQ_NP_929415-MLB27621618407_062018-O.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
+    height: 400px;
+    margin-top: 150px;
+    border-radius:10px;
+    box-shadow:10px 15px 15px 2px rgb(31, 31, 31);
+}
+.content h3 {
+    
+    margin-top: 5px;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-size: 1.2em;
+    
+}
+.content .area1 h3 {
+    color: rgb(0, 0, 0);
+}
+.content .area2 h3 {
+    color: rgba(3, 151, 40, 0.767);
+}
+
+.content .area1, .area2 {
+    
+    width:90%;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    
+   
+    margin-top:-5px;
+    width: 90%;
+    
+    
+    
+}
+.content .area1 ul {
+    margin-left: 1%;
+    
+}
+
+.content .area2 ul {
+    margin-left: 10%;
+}
+
+.content .area1 ul li {
+    padding-top: 5px;
+    
+}
+
+.over{
+    border:2px dotted #666;
+}
+
+
+
