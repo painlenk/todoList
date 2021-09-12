@@ -183,6 +183,62 @@ align-items: center;
 }
 
 
+/*walkman*/
+
+.walkman {
+    top:500px;
+    right:20px;
+   position: absolute;
+  background-image: url('./assets/walkman.png');
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position-x: center;
+  background-position-y: center;
+  width: 180px;
+  height: 350px;
+  cursor: move;
+  
+
+  
+  
+}
+
+.acoes {
+    margin-top:140px;
+    margin-left: 115px;
+    width: 38px;
+    height: 80px;
+
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.play, .pause{
+    width: 30px;
+    height: 35px;
+    
+    background-image: url('./assets/icons8-play-48.png');
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: contain;
+     border-radius: 10px;
+   
+}
+
+.play:hover, .pause:hover{
+    border: 1px solid rgb(5, 243, 243);
+    cursor: pointer;
+}
+
+.pause{
+    background-image: url('./assets/icons8-pause-48.png');
+}
+
+
 
 
 

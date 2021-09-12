@@ -89,6 +89,40 @@ function drop() {
     
 }
 
+//walkman
+const walkman = document.querySelector('[walkman]')
+walkman.style.position = 'absolute'
+
+walkman.onmousemove = e => {
+    const item = e.target
+    
+    if(e.buttons) {
+        item.style.top = `${e.clientY - (item.clientHeight /2)}px`
+        item.style.left = `${e.clientX - (item.clientWidth /2)}px`
+        onsole.log('move')
+    }
+    
+}
+
+const play = document.querySelector('[play]')
+const pause = document.querySelector('[pause]')
+
+const music = new Audio('./audio/futureMusic.mp3')
+
+play.onclick = e => {
+    play.style.cursor ='pointer'
+    music.play()
+    
+
+}
+
+pause.onclick = e => {
+    pause.style.cursor ='pointer'
+    music.pause()
+}
+
+
+
 
 
 
